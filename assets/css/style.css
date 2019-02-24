@@ -1,12 +1,37 @@
-
+/* ***** */
+/* Home */
+/* ***** */
 /* jumbotron */
 .jumbotron-fluid{
-    height: 600px;
-    /* height: 700px; */
+    /* height: 600px; */
+    height: 800px;
+    /* background-image: url(../image/computer.jpeg); */
+    background-image: url("../image/black-waves.jpg");
+    font-family:  sans-serif;
+}
+/* name - bindhu sivanand */
+.display-4{
+  font-size: 72px;
+  color: whitesmoke;
 }
 
+.lead{
+  font-size: 14px;
+  font-weight: 700;
+  
+  
+}
 
-
+h2, h2 {
+  color: whitesmoke;
+}
+/* nav header */
+#navbar-example2{
+background-color: #d4572a
+}
+a{
+  color: black;
+}
 
 
 /* icon */
@@ -18,6 +43,7 @@
     margin: 0;
     padding: 0;
     display: flex;
+ 
     
     }
     .icon li{
@@ -116,69 +142,97 @@
     .icon li:hover:nth-child(4) a:after{
     background: #0d82bf;
     }
-    /*  */
 
-     /* about */
+     /* icon */
+    
+
+    /*  */
+    /* ***** */
+     /* About */
+     /* ***** */
 
      /* #aboutText{
          text-align: center;
      } */
 
-     img{
+     /* img{
          margin-left: 40%;
-     }
+     } */
 
+     #profileImg{
+      /* margin-left: 40%; */
+      margin-left: 425px;
+     }
      .aboutText{
          text-align: center;
          margin-top: 20px;
          margin-bottom: 20px;
      }
 
-    /* icon */
-    @media screen and (max-width: 640px){
-        .icon {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            margin: 0;
-            padding: 0;
-            display: flex;  
-            flex-direction: column-reverse;
-        }
+     /* #aboutMeText{
+       margin-bottom: 20px;
+     } */
+     p {
+      margin-top: 20px;
+      margin-bottom: 1rem;
+      text-align: center;
+      margin-left: 70px;
+      margin-right: 70px;
+    }
+   
+     /* ***** */
+     /* Project */
+     /* ***** */
 
-        .icon li a {
-            position: relative;
-            display: block;
-            width: 80px;
-            height: 80px;
-            background-color: #fff;
-            text-align: center;
-            transform: perspective(100px) rotate(-30deg) skew(25deg) translate(0,0);
-            transition: .5s;
-            box-shadow: -20px 20px 10px rgb(0, 0, 0, 0.5);
-            margin-bottom: 30px;
-        }
-        /* Bindhu Sivanand & Full-Stack Web Developer */
+       /* GitHub button on project page, right side */
+  #GitHub{
+    /* margin-left: 300px; */
+    margin-left: 50px;
+    background-color: black;
+  }
 
-        .display-4 {
-            font-size: 2rem;
-            font-weight: 300;
-            line-height: 1.2;
-        }
-
-        /* profile Image */
-        img {
-            margin-left: 28%;
-        }
-
+     /* Project title */
+     #projects{
+       text-align: center;
+       margin-top: 20px;
+       margin-bottom: 20px;
+     }
+    .projectImage{
+      /* margin-left: 200px; */
     }
 
+    /* .hovereffect img {
+      margin-left: 40px;
+    }
+     */
+     .card1 {
+      position: relative;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      min-width: 0;
+      word-wrap: break-word;
+      /* background-color: #fff; */
+      background-clip: border-box;
+      /* border: 1px solid rgba(0,0,0,.125); */
+      border-radius: .25rem;
+      margin-right: 20px;
+      margin-left: 60px;
+  }
+  
+
+
+   
 
     /* 0000000000000000000000000000000000000000000000000000000000000000000000000 */
     /* ************************************** */
 /* **********Portfolio Page **************/
 /* ************************************ */
+
+#projectColor{
+  background-color: orange;
+}
 .imgtext{
     position: absolute;
     background-color: #4aaaa5;
@@ -305,5 +359,66 @@
         background-color: black;
       } */
     /* 00000000000000000000000000000000000000000000000000000000000000000000000000000 */
+
+    @media screen and (max-width: 980px){
+      #profileImg {
+        margin-left: 230px;
+      }
+
+      .card-deck{
+        margin-left: 140px;
+      }
+
+      .icon{
+        margin-top: 50px;
+      }
+    }
+
+
+
+    @media screen and (max-width: 640px){
+      .icon {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          margin: 0;
+          padding: 0;
+          display: flex;  
+          flex-direction: column-reverse;
+      }
+
+      .icon li a {
+          position: relative;
+          display: block;
+          width: 80px;
+          height: 80px;
+          background-color: #fff;
+          text-align: center;
+          transform: perspective(100px) rotate(-30deg) skew(25deg) translate(0,0);
+          transition: .5s;
+          box-shadow: -20px 20px 10px rgb(0, 0, 0, 0.5);
+          margin-bottom: 30px;
+      }
+      /* Bindhu Sivanand & Full-Stack Web Developer */
+
+      .display-4 {
+          font-size: 2rem;
+          font-weight: 300;
+          line-height: 1.2;
+      }
+
+      /* profile Image */
+      /* img {
+          margin-left: 28%;
+      } */
+
+      #profileImg{
+        margin-left:120px;
+       }
+     }
+
+  
+
 
    
