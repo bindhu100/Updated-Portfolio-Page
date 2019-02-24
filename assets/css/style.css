@@ -231,23 +231,43 @@ a{
 /* ************************************ */
 
 #projectColor{
-  background-color: orange;
+  background-color: #dca324;
 }
 .imgtext{
     position: absolute;
-    background-color: #4aaaa5;
+    /* background-color: #4aaaa5; */
+    background-color: #607D8B;
     color: #ffffff;
     bottom: 15px;
     /*margin: 0;*/
     /* height: 50px; */
-    height: 60px;
+    /* height: 60px; */
     width: 300px;
-    text-align: center;
+    /* text-align: center; */
     padding: 2%;
     font-weight: bold;
     font-size: 1.5em
     
     }
+
+    /* GitHub button on portfolio page, right side */
+    a.btn.btn-secondary.btn-sm.active {
+    /* margin-left: 300px; */
+    /* margin-left: 50px; */
+    background-color: black;
+   
+  }
+  a.btn.btn-secondary.btn-sm.active {
+    margin-top: 0px;
+}
+
+  a.btn.btn-secondary.btn-sm.active {
+    /* margin-left: 20px; */
+    /* float: right; */
+    /* margin-top: 10px; */
+    /* margin-right: 10px; */
+    /* background-color: black; */
+}
     
     
     /*portfolio image - hovereffect-bootstrap */
@@ -346,7 +366,7 @@ a{
       a.btn.btn-secondary.btn-sm.active{
           /* margin-left: 20px; */
           float: right;
-          margin-top: 10px;
+          /* margin-top: 10px; */
           margin-right: 10px;
           /* background-color: black; */
          
