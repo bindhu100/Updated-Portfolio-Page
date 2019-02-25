@@ -27,7 +27,8 @@ h2, h2 {
 }
 /* nav header */
 #navbar-example2{
-background-color: #d4572a
+background-color: #d4572a;
+margin-bottom: -8px; /* to remove the white space*/
 }
 a{
   color: black;
@@ -167,6 +168,15 @@ a{
          text-align: center;
          margin-top: 20px;
          margin-bottom: 20px;
+
+         
+     }
+
+     p{
+      font-size: 20px;
+         margin-bottom: 2em;
+         
+         line-height: 1.5em;
      }
 
      /* #aboutMeText{
@@ -227,7 +237,7 @@ a{
 
     /* 0000000000000000000000000000000000000000000000000000000000000000000000000 */
     /* ************************************** */
-/* **********Portfolio Page **************/
+/* **********Porojects Page **************/
 /* ************************************ */
 
 #projectColor{
@@ -378,6 +388,36 @@ a{
         margin-left: 50px;
         background-color: black;
       } */
+      /* ******* */
+      /* Skill */
+      /* ******** */
+
+      /* skill title */
+      #skills{
+        text-align: center;
+      }
+
+      /* skill badge */
+      .badgeSkill{
+        float: left;
+        /* margin-left: 20px; */
+        float: left;
+        margin-left: 100px;
+        line-height: 90px;
+      }
+      /* skill div */
+      #skillWith{
+        height:400px ;
+      }
+      /* nodejs */
+      .badge-danger {
+        color: #fff;
+        background-color: #dc3545;
+        margin-bottom: 30px;
+    }
+
+
+
     /* 00000000000000000000000000000000000000000000000000000000000000000000000000000 */
 
     @media screen and (max-width: 980px){
@@ -392,6 +432,26 @@ a{
       .icon{
         margin-top: 50px;
       }
+
+       #skillWith{
+         height:550px ;
+      
+      }
+    } 
+
+
+    @media screen and (max-width: 768px){
+      .icon{
+        margin-top: 70px;
+      }
+
+      #profileImg{
+        margin-left:120px;
+       }
+
+       .card-deck{
+        margin-left: 50px;
+       }
     }
 
 
@@ -402,7 +462,7 @@ a{
           top: 50%;
           left: 50%;
           transform: translate(-50%, -50%);
-          margin: 0;
+          /* margin: 0; */
           padding: 0;
           display: flex;  
           flex-direction: column-reverse;
@@ -436,9 +496,29 @@ a{
       #profileImg{
         margin-left:120px;
        }
+       .imgtext {
+        width: 450px;
+       }
+       .card-deck{
+        margin-left: 14px;
+       }
      }
 
+    
+
   
+#footer{
+/* height: 40px; */
+background-color: black;
+padding: 25px;
+}
+.footerlink{
+  color:white;
+  margin-left: 25px;
+}
+
+
+
 
 
    
