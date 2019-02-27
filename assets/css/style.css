@@ -155,6 +155,7 @@ a{
      #profileImg{
       /* margin-left: 40%; */
       margin-left: 425px;
+      /* margin-left: 340px; */
      }
 
      .aboutText{
@@ -356,7 +357,8 @@ a{
 
       /* skill div */
       #skillWith{
-        height:400px ;
+        /* height:400px ; */
+        height:500px ;
       }
 
       /* nodejs */
@@ -383,7 +385,8 @@ a{
 
     @media screen and (max-width: 980px){
       #profileImg {
-        margin-left: 230px;
+        /* margin-left: 230px; */
+        margin-left: 340px
       }
 
       .card-deck{
@@ -395,7 +398,8 @@ a{
       }
 
        #skillWith{
-         height:550px ;
+         /* height:550px ; */
+         height:600px ;
       
       }
     } 
@@ -464,10 +468,267 @@ a{
       
      }
 
+
+     /* ******** */
+     
+      /* iPad Pro */
+      /* @media screen and (max-width: 1024px){
+
+       
+        ul.icon{
+          margin-top: -250px;
+        }
+        #profileImg{
+          margin-left: 330px;
+        }
+
+        #skillWith {
+          height: 500px;
+      }
+      .card-deck {
+        margin-left: 70px;
+    }
+      } */
+
+       /* iPad Pro in landscape */
+       /* @media only screen and (min-device-width: 1112px) and (orientation: landscape){
+        ul.icon {
+          margin-top: -200px;
+      }
+      } */
+
+
+      /* iPad */
+
+      /* @media screen and (max-width: 768px){
+        ul.icon {
+          margin-top: -100px;
+      }
+
+      #profileImg {
+        margin-left: 215px;
+    }
     
+    .card-deck {
+      margin-left: 150px;
+    }
 
+    #skillWith {
+    height: 570px;
+    }
+    }  */
+
+      /* iPad in landscape */
+      /* @media only screen 
+      and (min-device-width : 768px) 
+      and (max-device-width : 1024px) 
+      and (orientation : landscape)  {
+  ul.icon {
+    margin-top: 100px;
+}
+} */
+
+    
+/* iPhone X */
+@media screen and (max-width: 375px){
+  ul.icon {
+    margin-top: 70px;
+}
+img#profileImg {
+  margin-left: 55px;
+}
+
+.card-deck {
+  margin-left: -3px;
+}
+#skillWith {
+  height: 950px;
+}
+}
+
+/* iPhone X in landscape */
+@media only screen 
+    and (device-width : 812px) 
+    and (device-height : 375px) 
+    and (-webkit-device-pixel-ratio : 3)
+    and (orientation : landscape)    {
   
+      ul.icon {
+    margin-top: 200px;
+}
 
+img#profileImg {
+  margin-left: 210px;
+}
+
+.card-deck {
+  margin-left: 150px;
+}
+
+div#skillWith {
+  height: 550px;
+}
+}
+
+/* iPhone 6/7/8 plus */
+@media screen and (max-width: 414px){
+  ul.icon {
+    margin-top: 100px;
+}
+#profileImg {
+  margin-left: 75px;
+}
+
+.card-deck {
+  margin-left: 0px;
+}
+div#skillWith {
+  height: 950px;
+  margin-left: -10px;
+}
+}
+
+/* iPhone 6/7/8 plus in landscape */
+@media only screen 
+    and (min-device-width : 414px) 
+    and (max-device-width : 736px) 
+    and (orientation : landscape) 
+    and (-webkit-min-device-pixel-ratio : 3) {
+      ul.icon {
+        margin-top: 300px;
+    }
+
+    img#profileImg {
+      margin-left: 120px;
+  }
+
+  .card-deck {
+    margin-left: 50px;
+}
+div#skillWith {
+  margin-left: -20px;
+}
+    }
+
+
+
+/* iPhone 6/7/8 */
+@media screen and (max-width: 414px){
+  ul.icon {
+    margin-top: 140px;
+}
+
+#profileImg {
+  margin-left: 50px;
+}
+}
+
+/* iPhone 6/7/8 in landscape */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-height: 667px) 
+and (orientation : landscape) 
+and (-webkit-device-pixel-ratio: 2){
+      ul.icon {
+        margin-top: 300px;
+    }
+
+    img#profileImg {
+      margin-left: 130px;
+  }
+
+  .card-deck {
+    margin-left: 51px;
+}
+
+div#skillWith {
+  margin-left: -50px;
+}
+    }
+
+
+/* iPhone 5/SE */
+@media screen and (max-width: 320px){
+
+  /* header nav  */
+  ul.nav.nav-pills {
+    margin-left: -20px;
+}
+
+ul.icon {
+  margin-top: 230px;
+}
+
+img#profileImg {
+  margin-left: 30px;
+}
+
+.card-deck {
+  margin-left: -30px;
+}
+
+h1.badgeSkill {
+  margin-left: 40px;
+  height: 100px;
+}
+}
+
+/* iPhone 5/SE in landscape */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-height: 568px) 
+and (orientation : landscape) 
+and (-webkit-device-pixel-ratio: 2){
+
+  .card-deck {
+    margin-left: 25px;
+}
+}
+
+/* Galaxy */
+@media screen and (max-width: 360px){
+  img#profileImg {
+    margin-left: 030px;
+}
+}
+
+/*pixe 2 XL in landscape */
+/* @media only screen 
+and (min-width: 823px) 
+and (orientation: landscape) {
+  ul.icon {
+    margin-top: 200px;
+}
+
+img#profileImg {
+  margin-left: 210px;
+}
+
+.card-deck {
+  margin-left: 130px;
+}
+
+#skillWith {
+  height: 600px;
+}
+} */
+
+/*pixe 2  in landscape */
+/* @media only screen 
+and (min-width: 731px) 
+and (orientation: landscape) {
+  ul.icon {
+    margin-top: 300px;
+}
+
+img#profileImg {
+  margin-left: 120px;
+}
+
+.card-deck {
+  margin-left: 50px;
+}
+} */
 
 
 
