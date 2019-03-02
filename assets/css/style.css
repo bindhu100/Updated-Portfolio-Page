@@ -397,8 +397,10 @@ a{
 
     @media screen and (max-width: 980px){
       #profileImg {
+        /* margin-left: 320px; */
         margin-left: 230px;
         /* margin-left: 340px */
+        /* margin-left: 40%; */
       }
 
       .card-deck{
@@ -416,6 +418,7 @@ a{
       }
     } 
 
+ 
 
 
     @media screen and (max-width: 768px){
