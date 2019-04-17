@@ -163,7 +163,9 @@ a{
     /* ************/
      /* About Page */
      /* *********** */
-
+    #about{
+      padding: 75px 0;
+    }
      #profileImg{
       /* margin-left: 40%; */
       margin-left: 425px;
@@ -205,6 +207,7 @@ a{
        text-align: center;
        margin-top: 20px;
        margin-bottom: 20px;
+       padding: 75px 0;
      }
 
     /* project image holder */
@@ -225,6 +228,7 @@ a{
 /* Project page background color */
 #projectColor{
   background-color: #dca324;
+ 
 }
 
 /* Project name baner */
@@ -357,6 +361,7 @@ a{
       /* skill title */
       #skills{
         text-align: center;
+        padding: 75px 0;
       }
 
       /* skill badge */
@@ -665,7 +670,7 @@ div#skillWith {
 /* iPhone 5/SE */
 @media screen and (max-width: 320px){
 
-  /* header nav  */
+/* header nav  */
   ul.nav.nav-pills {
     margin-left: -20px;
 }
@@ -701,11 +706,11 @@ and (-webkit-device-pixel-ratio: 2){
 }
 
 /* Galaxy */
-@media screen and (max-width: 360px){
+ @media screen and (max-width: 360px){
   img#profileImg {
     margin-left: 030px;
 }
-}
+} 
 
 /*pixe 2 XL in landscape */
 /* @media only screen 
@@ -744,10 +749,3 @@ img#profileImg {
   margin-left: 50px;
 }
 } */
-
-
-
-
-
-
-   
