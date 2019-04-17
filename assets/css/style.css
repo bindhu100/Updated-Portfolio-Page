@@ -4,11 +4,11 @@
 
 
 /* 99999999999999999 */
-/* margin-top: -100px; */
+/* icon  position */
 /* ul.icon {
-  
-  margin-top: 20px;
+  margin-top: -100px;
 } */
+
 
 ul.icon {
   margin-top: 20px;
@@ -36,10 +36,6 @@ ul.icon {
  /* jumbotron Text */
 h2, h2 {
   color: whitesmoke;
-}
-/* icon  position */
-ul.icon {
-  margin-top: -100px;
 }
 
 
