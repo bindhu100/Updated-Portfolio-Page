@@ -232,6 +232,9 @@ a{
   background-color: #dca324;
  
 }
+.imgname {
+  text-align: left;
+}
 
 /* Project name baner */
 .imgtext{
@@ -378,6 +381,7 @@ a{
       #skillWith{
         /* height:400px ; */
         height:500px ;
+        /* width: 800px; */
       }
 
       /* nodejs */
