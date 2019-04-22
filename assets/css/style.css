@@ -372,7 +372,7 @@ a{
       /* skill badge */
       .badgeSkill{
         float: left;
-        float: left;
+        /* float: left; */
         margin-left: 100px;
         line-height: 90px;
       }
@@ -383,6 +383,7 @@ a{
         height:500px ;
         /* width: 800px; */
       }
+  
 
       /* nodejs */
       .badge-danger {
