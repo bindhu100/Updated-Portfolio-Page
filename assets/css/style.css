@@ -363,6 +363,13 @@ a{
       /* Skill Page */
       /* ************ */
 
+      .flex-container {
+        display: flex;
+        height: 95px;
+        align-items: center;
+        justify-content: space-around;
+      }
+
       /* skill title */
       #skills{
         text-align: center;
@@ -371,10 +378,9 @@ a{
 
       /* skill badge */
       .badgeSkill{
-        float: left;
+
         /* float: left; */
-        margin-left: 100px;
-        line-height: 90px;
+
       }
 
       /* skill div */
@@ -389,7 +395,6 @@ a{
       .badge-danger {
         color: #fff;
         background-color: #dc3545;
-        margin-bottom: 30px;
     }
     /* **************** */
     /* Footer */
